@@ -10,41 +10,67 @@
     <header>
         <a href="" class="logo">
             <img src="logo.png" alt="logo.EI">
-            <h2 class="N.Empresa">Esferas informaticas</h2>
+            <h2 class="logo-text">Esferas informaticas</h2>
         </a>
-        <a href="" class="navlink">Inicio</a>
-        <a href="" class="navlink">Registrate</a>
-        <a href="" class="navlink">Formación</a>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <div class="question">
-            <div class="frame">
-                <h2>Pregunta 1</h2>
-                <ul class="options">
-                    <li><input type="radio" name="q1" value="a"> Opción A</li>
-                    <li><input type="radio" name="q1" value="b"> Opción B</li>
-                    <li><input type="radio" name="q1" value="c"> Opción C</li>
-                    <li><input type="radio" name="q1" value="d"> Opción D</li>
-                </ul>
-                <h2>Pregunta 2</h2>
-                <ul class="options">
-                    <li><input type="radio" name="q1" value="a"> Opción A</li>
-                    <li><input type="radio" name="q1" value="b"> Opción B</li>
-                    <li><input type="radio" name="q1" value="c"> Opción C</li>
-                    <li><input type="radio" name="q1" value="d"> Opción D</li>
-                </ul>
-                <h2>Pregunta 3</h2>
-                <ul class="options">
-                    <li><input type="radio" name="q1" value="a"> Opción A</li>
-                    <li><input type="radio" name="q1" value="b"> Opción B</li>
-                    <li><input type="radio" name="q1" value="c"> Opción C</li>
-                    <li><input type="radio" name="q1" value="d"> Opción D</li>
-                </ul>
-            </div>
-        </div>
+        <div class="content-box">
+            <h2>Pregunta 1:</h2>
+            <p>¿Esta es la pregunta 1?</p>
+            <ul class="options">
+                <li><input type="radio" name="respuesta" id="opcion1"><label for="opcion1">Si</label></li>
+                <li><input type="radio" name="respuesta" id="opcion2"><label for="opcion2">No</label></li>
+                <li><input type="radio" name="respuesta" id="opcion3"><label for="opcion3">No sé</label></li>
+                <li><input type="radio" name="respuesta" id="opcion4"><label for="opcion4">Probablemente</label></li>
+            </ul>
 
-        <!-- Repite el bloque de pregunta para las siguientes preguntas -->
+            <h2>Pregunta 2:</h2>
+            <p>¿Cuál es el océano más grande del mundo?</p>
+            <ul class="options">
+                <li><input type="radio" name="respuesta2" id="opcion5"><label for="opcion5">Océano Atlántico</label></li>
+                <li><input type="radio" name="respuesta2" id="opcion6"><label for="opcion6">Océano Pacífico</label></li>
+                <li><input type="radio" name="respuesta2" id="opcion7"><label for="opcion7">Océano Índico</label></li>
+                <li><input type="radio" name="respuesta2" id="opcion8"><label for="opcion8">Océano Antártico</label></li>
+            </ul>
+
+            <h2>Pregunta 3:</h2>
+            <p>¿Cuál es la capital de Japón?</p>
+            <ul class="options">
+                <li><input type="radio" name="respuesta3" id="opcion9"><label for="opcion9">Pekín</label></li>
+                <li><input type="radio" name="respuesta3" id="opcion10"><label for="opcion10">Seúl</label></li>
+                <li><input type="radio" name="respuesta3" id="opcion11"><label for="opcion11">Tokio</label></li>
+                <li><input type="radio" name="respuesta3" id="opcion12"><label for="opcion12">Bangkok</label></li>
+            </ul>
+
+            <h2>Pregunta 3:</h2>
+            <p>¿Cuál es la capital de Perú?</p>
+            <ul class="options">
+                <li><input type="radio" name="respuesta3" id="opcion9"><label for="opcion13">Lima</label></li>
+                <li><input type="radio" name="respuesta3" id="opcion10"><label for="opcion14">Guayaquil</label></li>
+                <li><input type="radio" name="respuesta3" id="opcion11"><label for="opcion15">Santiago</label></li>
+                <li><input type="radio" name="respuesta3" id="opcion12"><label for="opcion16">Ica</label></li>
+            </ul>
+        </div>
     </main>
-    <footer>¡Gracias por participar!</footer>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Información de Contacto</h3>
+            <p>Correo: info@esferasinformaticas.com</p>
+            <p>Dirección: Calle Principal, Ciudad, País</p>
+            <p>Teléfono: +123 456 789</p>
+        </div>
+    </footer>
+
 </body>
 </html>
