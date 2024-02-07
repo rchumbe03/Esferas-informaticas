@@ -12,10 +12,12 @@ header {
     width: 100%;
     background-color: white;
     color: black;
+    border-bottom: 2px solid rgb(173, 173, 173); 
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+     z-index: 1000; 
 }
 
 .container {
@@ -52,7 +54,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 nav ul li a {
@@ -60,22 +62,54 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* -MIDDLE-BOX- */
+
+.middle-box {
+    /* posición y tamaño */
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    padding: 20px; 
+    max-height: 40px;
+    padding-top: 250px;
+    margin-top: 100px;
+    /* color */
+    background-color: #fff9e1;
+    color: black;
+}
+
+.middle-box p {
+    font-size: 20px;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    margin: 0;
+}
+
+.middle-box img {
+    position: absolute;
+    padding-right: 30px;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: auto; 
+    display: flex;
+}
+
 /* -CONTENT-BOX- */
 
 main {
-    box-sizing: border-box;
-    margin-top: 80px;
-    background-color: #2768bf; /* Color de fondo */
-    padding: 20px;
+    background-color: #6b9ee1; /* Color de fondo */
 }
 
 .content-box {
     background-color: #e6e6e6; /* Color de fondo */
     color: black; /* Color de texto */
-    max-width: 800px; /* Ancho máximo */
-    margin: 0 auto;
-    margin-bottom: 0; 
     padding: 20px;
+    padding-left: 40px;
+    max-width: 700px; /* Ancho máximo */
+    margin: 0 10%;
     text-align: left;
 }
 
@@ -96,8 +130,10 @@ options li input {
     margin-right: 5px;
 }
 
+/* -FOOTER- */
+
 footer {
-    background-color: #333;
+    background-color: #2d3847;
     color: #fff;
     padding: 20px;
     text-align: center;
