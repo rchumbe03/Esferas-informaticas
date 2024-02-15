@@ -10,9 +10,9 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: white;
+    background-color: #DCF2F1;
     color: black;
-    border-bottom: 2px solid rgb(173, 173, 173); 
+    border-bottom: 2px solid rgb(206, 206, 206); 
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -75,8 +75,9 @@ nav ul li a {
     padding-top: 250px;
     margin-top: 100px;
     /* color */
-    background-color: #fff9e1;
-    color: black;
+    background-color: #848587;
+    color: white;
+    border-bottom: 5px solid #ffffff; 
 }
 
 .middle-box p {
@@ -100,16 +101,16 @@ nav ul li a {
 /* -CONTENT-BOX- */
 
 main {
-    background-color: #6b9ee1; /* Color de fondo */
+    background-color: #365486; /* Color de fondo */
 }
 
 .content-box {
-    background-color: #e6e6e6; /* Color de fondo */
+    background-color: #7FC7D9; /* Color de fondo */
     color: black; /* Color de texto */
     padding: 20px;
     padding-left: 40px;
     max-width: 700px; /* Ancho máximo */
-    margin: 0 10%;
+    margin: 0 auto;
     text-align: left;
 }
 
@@ -133,7 +134,7 @@ options li input {
 /* -FOOTER- */
 
 footer {
-    background-color: #2d3847;
+    background-color: #0F1035;
     color: #fff;
     padding: 20px;
     text-align: center;
