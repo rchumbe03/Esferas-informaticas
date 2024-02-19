@@ -144,3 +144,10 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+button[type="submit"] {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px; /* Mover el botón hacia abajo */
+    margin-left: 75%; /* Mover el botón hacia la derecha */
+}
